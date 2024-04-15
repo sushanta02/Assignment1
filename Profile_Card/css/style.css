@@ -1,0 +1,114 @@
+.profile-card {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 420px;
+}
+
+.profile-card:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  margin: -30px auto 10px;
+  border-radius: 50%;
+  background-color: #ddd; /* Change this to include your profile picture */
+}
+
+.profile-info h3{
+
+  margin: 15px 0;
+  color: #000000;
+  font-weight: 700;
+  font-size: 38px;
+}
+
+
+.profile-info h5 {
+  margin: 5px 0;
+  color: #666464;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+.stats .stat {
+  text-align: center;
+}
+
+
+
+.stats .stat h4{
+  margin: 5px 0;
+  color: #666464;
+  font-size: 20px;
+}
+.stats .stat p {
+  margin: 5px 0;
+  color: #000000;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.btn {
+  padding: 5px 45px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.btn-secondary {
+  background-color: #000000;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.h1, h1 {
+  font-size: calc(5.375rem + 1.5vw);
+  margin-top: 60px;
+  font-weight: 700;
+  /* padding-left: 25px; */
+  font-size: 124px;
+  line-height: 133px;
+}
+
+
+button.btn.btn-info {
+  padding: 0px 7px;
+  color: #fff;
+  background-color: gray;
+  font-weight: 600;
+}
+p.card-description {
+  font-size: 19px;
+  padding: 15px;
+  color: #6e6c6c;
+}
+.h3, h3 {
+  font-size: 3.75rem;
+  font-weight: normal;
+  margin-top: 100px;
+}
